@@ -11,8 +11,6 @@ def do_reply(browser,config):
         hrefs.append(ele.get_attribute('href'))
     count=3
     num=0
-
-
     replyList=config.get("replyList")
 
     for href in hrefs:
@@ -56,7 +54,6 @@ def do_login(browser,config):
     answer= config.get("account").get("answer")
 
     browser.get(config.get('98domin'))
-    print(browser.title)
     browser.find_element(By.CLASS_NAME,'enter-btn').click()
     do_sleep(1)
     
