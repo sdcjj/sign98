@@ -1,0 +1,12 @@
+{
+    "98domin":"98的域名",
+    "account":{
+        "uid":"账号",
+        "pwd":"密码",
+        "qid":"问题id",
+        "answer":"问题答案"
+    },
+    "replyList":["回帖内容1","回帖内容2"],
+    "cron":"55 20 12 * *",
+    "chrome":"chrome docker (selenium/standalone-chrome) 的地址http://192.168.x.x:4444"
+}
