@@ -13,4 +13,4 @@ COPY requirements.txt /tmp/requirements.txt
 RUN ["pip", "install", "-r", "/tmp/requirements.txt" , "-i" , "https://pypi.tuna.tsinghua.edu.cn/simple"]
 
 # 运行Python脚本
-CMD ["python","-u", "./src/main.py"]
+CMD ["python","-u", "/src/main.py"]
