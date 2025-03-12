@@ -1,13 +1,5 @@
 # 签到适配
 
-## 依赖chrome容器
-```
-chrome:
-    image: selenium/standalone-chrome
-    ports:
-      - "4444:4444"
-
-```
 
 
 ## config.json说明
@@ -35,6 +27,7 @@ docker build -t sign98-demo:0.0.1 .
 ```
 
 ## 新建conf文件夹 config.json复制进去 并配置好账号信息
+## 依赖chrome容器
 ## compose
 ```
 
