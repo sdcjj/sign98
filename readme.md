@@ -9,7 +9,7 @@ docker build -t sign98-demo:0.0.1 .
 ```
 
 
-## 先启动依赖chrome容器
+## 先启动依赖的chrome容器
 ```
 chrome:
     container_name: chrome
@@ -34,8 +34,6 @@ sign98:
     restart: unless-stopped
 
 ```
-
-
 
 
 
