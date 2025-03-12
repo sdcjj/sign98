@@ -46,7 +46,9 @@ sign98:
     volumes:
       - /conf:/src/conf
     restart: unless-stopped
+
 chrome:
+    container_name: chrome
     image: selenium/standalone-chrome
     ports:
       - "4444:4444"
