@@ -29,13 +29,13 @@ chrome:
 ```
 
 ## 本地构建
-## 新建conf文件夹 config.json复制进去 并配置好账号信息
 ```
 docker build -t sign98-demo:0.0.1 .
 
 ```
 
-# compose
+## 新建conf文件夹 config.json复制进去 并配置好账号信息
+## compose
 ```
 
 sign98:
